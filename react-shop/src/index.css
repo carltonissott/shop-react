@@ -250,3 +250,12 @@ h4 {
   background-color: #cb9973;
   margin-top: 10px;
 }
+
+.about-container {
+  width: 80%;
+}
+
+.about-container h2{
+  font-size: 50px;
+  font-weight: 300;
+}
