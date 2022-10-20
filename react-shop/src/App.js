@@ -29,7 +29,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/shop-react" element={<HomePage />} />
         <Route path="/shopnow" element={<ShopNow />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/checkout" element={<Checkout />} />
