@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ImageSlide = () => {
   return (
     <div className="imageslider">
@@ -6,7 +8,7 @@ const ImageSlide = () => {
           <span className="thin">happiness,</span>{'\n'}
           <b>delivered.</b>
         </h3>
-                  <button className="button">Shop now</button>
+                 <Link to="/shop-react"><button className="button">Shop now</button> </Link> 
       </div>
       <img
         className="imageslider-img"
